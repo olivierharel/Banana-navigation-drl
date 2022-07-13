@@ -31,6 +31,7 @@ class Agent():
             seed (int): random seed
             use_double_dqn (bool): if true use double dqn for learning
             prioritized_replay (tuple(bool, float, float, float, float)): enable / epsilon (>0) / alpha (0.0 < <= 1.0) / beta (0.0 < <=1.0) / beta decay (>= 1)
+            use_dueling (bool): if true use dueling networks
         """
         self.state_size = state_size
         self.action_size = action_size
