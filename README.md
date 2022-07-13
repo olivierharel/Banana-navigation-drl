@@ -59,15 +59,5 @@ By default the maximum number of training episodes is set to 1000 and the 'succe
 The average and median scores of the agents are measured over 40 episodes each with at most 500 steps.
 All agents perform better than the vanilla DQN, in particular the 'prioitized replay' agent.
 
-
-
-
-
-
-
-
-
-
-
-
-
+For training, execute sections 1, 2, 4 and 5.
+For testing (after training), run sections 1, 2, 4 and 6.
